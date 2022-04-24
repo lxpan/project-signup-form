@@ -4,6 +4,7 @@ body {
     display: flex;
     flex: 1;
     height: 100vh;
+    font-family: 'Teko', sans-serif;
 }
 
 .left {
