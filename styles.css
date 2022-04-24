@@ -21,12 +21,14 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header {
-    height: 200px;
+    background-color: rgb(251, 246, 246);
+    height: 300px;
 }
 
 .form {
-    height: 300px;
+    height: 250px;
 }
