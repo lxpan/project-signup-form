@@ -1,3 +1,24 @@
-h1 {
-    color: royalblue;
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+.left {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 200px;
+}
+
+.form {
+    height: 300px;
 }
