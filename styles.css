@@ -10,9 +10,22 @@ body {
 .left {
     display: flex;
     position: relative;
+    color: white;
 }
 
-.banner {
+.photo-credit {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
+}
+
+.photo-credit a:link, a:visited {
+    color: white;
+}
+
+.logo {
     position: absolute; 
     margin: auto;
     top: 0; left: 0; bottom: 0; right: 0;
