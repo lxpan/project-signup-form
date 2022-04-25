@@ -41,9 +41,37 @@ body {
     height: 300px;
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 50px;
+    padding: 0 50px;
 }
 
-.form {
+.formContainer {
+    padding: 0 50px;
     height: 250px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+form label {
+    font-size: small;
+}
+
+form input {
+    height: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
 }
