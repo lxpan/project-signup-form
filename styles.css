@@ -73,6 +73,8 @@ form input {
 }
 
 .footer {
-    margin-top: 100px;
     display: flex;
+    flex: 1;
+    margin-top: 100px;
+    background-color: rgb(251, 246, 246);
 }
