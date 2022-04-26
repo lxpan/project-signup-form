@@ -91,7 +91,7 @@ input:focus {
     background-color: rgb(251, 246, 246);
 }
 
-input:not(:focus):invalid {
+input:not(:focus):not(:placeholder-shown):invalid {
     border-color: var(--color-invalid);
 }
 
