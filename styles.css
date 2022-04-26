@@ -53,7 +53,7 @@ body {
 form {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 70px;
 }
 
 form label {
