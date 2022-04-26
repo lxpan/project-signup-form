@@ -52,8 +52,6 @@ body {
 
 form {
     display: flex;
-    flex-direction: row;
-    gap: 100px;
 }
 
 form label {
@@ -75,6 +73,17 @@ form input {
 .footer {
     display: flex;
     flex: 1;
-    margin-top: 100px;
+    margin-top: 60px;
     background-color: rgb(251, 246, 246);
+}
+
+.row {
+    display: flex;
+    gap: 100px;
+}
+
+.column {
+    flex: 50%;
+    width: 200px;
+    padding: 10px;
 }
