@@ -1,0 +1,1 @@
+console.log("Courage duty honour!");
