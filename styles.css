@@ -1,3 +1,9 @@
+
+:root {
+    --color-valid: green;
+    --color-invalid: red;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -83,4 +89,12 @@ input:focus {
     flex: 1;
     margin-top: 100px;
     background-color: rgb(251, 246, 246);
+}
+
+input:not(:focus):invalid {
+    border-color: var(--color-invalid);
+}
+
+input:not(:focus):not(:placeholder-shown):valid {
+    border-color: var(--color-valid);
 }
