@@ -68,6 +68,11 @@ form input {
     border-radius: 4px;
 }
 
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 5px 5px 5px gray;
+}
+
 .left-column, .right-column {
     display: flex;
     flex-direction: column;
