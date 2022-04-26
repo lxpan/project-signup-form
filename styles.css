@@ -61,7 +61,8 @@ form label {
 }
 
 form input {
-    height: 20px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
     width: 200px;
     margin-bottom: 20px;
     border-radius: 4px;
