@@ -52,7 +52,7 @@
                     <input type="email" name="email" id="email" tabindex="5" placeholder="john.rico@mail.inf" required>
 
                     <label for="passwordConfirm">PASSWORD <span></span></label>
-                    <input type="password" name="password" id="passwordConfirm" class="error" tabindex="7" required
+                    <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" name="password" id="passwordConfirm" class="error" tabindex="7" required
                         placeholder=" ">
 
                 </div>
