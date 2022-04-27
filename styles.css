@@ -95,11 +95,11 @@ input:focus {
     display: flex;
     flex-direction: column;
     max-height: 300px;
-    max-width: 330px;
 }
 
 .form-right-column {
     flex-wrap: wrap;
+    max-width: 400px;
 }
 
 .footer {
