@@ -142,3 +142,8 @@ input:not(:focus):not(:placeholder-shown):invalid~.requirements {
 .submit-button button:hover {
     background-color: #5d6475;
 }
+
+label span::after {
+    content: '*';
+    color: red;
+}
