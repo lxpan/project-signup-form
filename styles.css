@@ -15,7 +15,6 @@ body {
 
 .left {
     display: flex;
-    border: 1px solid red;
     max-width: 33vw;
     position: relative;
     color: white;
@@ -35,24 +34,6 @@ body {
 
 .photo-credit a:link, a:visited {
     color: white;
-}
-
-.st-logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    /* top: calc(300px - 89.5px); */
-    transform: translate(-50%,-50%);
-    display: none;
-}
-
-.mobinf-logo {
-    position: absolute;
-    left: 50%;
-    top: 78%;
-    transform: translate(-50%,-50%);
-    opacity: 0.5;
-    max-width: 100%;
 }
 
 .right {
