@@ -1,6 +1,7 @@
 :root {
     --color-valid: green;
     --color-invalid: red;
+    --header-min-height: clamp(300px, 30vh, 400px);
 }
 
 body {
@@ -49,7 +50,7 @@ a:visited {
 
 .header {
     background-color: rgb(251, 246, 246);
-    min-height: clamp(300px, 30vh, 400px);
+    min-height: var(--header-min-height);
     font-size: 1.5rem;
     font-weight: bold;
     box-shadow: 0 1px lightgrey;
