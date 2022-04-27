@@ -25,18 +25,28 @@ body {
     max-width: 100%;
 }
 
-.logo-section {
+.logo-section,
+.logo-text {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
-    opacity: 0.5;
     top: calc(var(--header-min-height) - 100px);
     height: 100px;
     width: 100%;
+    
+}
+
+.logo-section {
+    background: black;
+    opacity: 0.5;
+}
+
+.logo-text {
     font-size: 3rem;
+    font-weight: bold;
     word-spacing: 10px;
+    
 }
 
 .photo-credit {
