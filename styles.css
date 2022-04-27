@@ -15,7 +15,8 @@ body {
 
 .left {
     display: flex;
-    max-width: 40vw;
+    /* max-width: 40vw; */
+    max-width: calc(0.67 * 100vh);
     position: relative;
     color: white;
 }
