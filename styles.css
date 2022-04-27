@@ -2,7 +2,9 @@
     --color-valid: green;
     --color-invalid: red;
     --header-min-height: clamp(300px, 30vh, 400px);
+    --header-background-colour: rgb(251, 246, 246);
     --logo-section-height: 140px;
+    --form-box-shadow-colour: lightgrey;
 }
 
 body {
@@ -75,11 +77,11 @@ a:visited {
 }
 
 .header {
-    background-color: rgb(251, 246, 246);
+    background-color: (--header-background-colour);
     min-height: var(--header-min-height);
     font-size: 1.5rem;
     font-weight: bold;
-    box-shadow: 0 1px lightgrey;
+    box-shadow: 0 1px var(--form-box-shadow-colour);
 }
 
 .formContainer {
@@ -89,7 +91,7 @@ a:visited {
     height: clamp(330px, 30vh, 400px);
     /* Make div able to show box-shadow */
     z-index: 10;
-    box-shadow: 0 5px 10px lightgrey;
+    box-shadow: 0 5px 10px var(--form-box-shadow-colour);
 }
 
 legend {
@@ -138,7 +140,7 @@ input:focus {
     display: flex;
     flex: 1;
     padding-top: 30px;
-    background-color: rgb(251, 246, 246);
+    background-color: var(--header-background-colour);
 }
 
 input:not(:focus):not(:placeholder-shown):invalid {
