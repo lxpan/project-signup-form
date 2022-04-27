@@ -15,8 +15,14 @@ body {
 
 .left {
     display: flex;
+    border: 1px solid red;
+    max-width: 33vw;
     position: relative;
     color: white;
+}
+
+.background {
+    max-width: 100%;
 }
 
 .photo-credit {
@@ -34,15 +40,20 @@ body {
 .st-logo {
     position: absolute;
     left: 50%;
-    top: calc(300px - 89.5px);
+    top: 50%;
+    /* top: calc(300px - 89.5px); */
     transform: translate(-50%,-50%);
+    display: none;
 }
 
-/* .logo {
-    position: absolute; 
-    margin: auto;
-    top: 0; left: 0; bottom: 0; right: 0;
-} */
+.mobinf-logo {
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    transform: translate(-50%,-50%);
+    opacity: 0.5;
+    max-width: 100%;
+}
 
 .right {
     display: flex;
