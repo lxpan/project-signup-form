@@ -118,11 +118,11 @@ input:not(:focus):not(:placeholder-shown):valid {
 
 input:not(:focus):not(:placeholder-shown):invalid~.requirements {
     max-height: 200px;
-    padding: 0 30px 20px 50px;
+    padding: 0 30px 20px 40px;
 }
 
 .requirements {
-    padding: 0 30px 0 50px;
+    padding: 0 30px 0 40px;
     color: #999;
     max-height: 0;
     transition: 0.28s;
