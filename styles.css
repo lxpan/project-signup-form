@@ -6,6 +6,7 @@
     --logo-section-height: 140px;
     --form-box-shadow-colour: lightgrey;
     --submit-button-colour: #343d52;
+    --submit-button-hover-colour: #5d6475;
 }
 
 body {
@@ -194,4 +195,8 @@ label span::after {
     color: var(--submit-button-colour);
     text-decoration: none;
     font-weight: bold;
+}
+
+.login-reminder a:hover {
+    color: var(--submit-button-hover-colour);
 }
