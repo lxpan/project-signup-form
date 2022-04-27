@@ -53,6 +53,14 @@ a:visited {
 .formContainer {
     padding: 0 50px;
     height: 250px;
+    font-size: large;
+}
+
+legend {
+    margin: 25px 0;
+    transform: translate(-0.2%, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 form {
