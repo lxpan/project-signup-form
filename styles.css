@@ -29,17 +29,14 @@ body {
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
     background: black;
     opacity: 0.5;
-    /* top: calc(var(--header-min-height) - 150px); */
-    top: 0;
-    height: 150px;
+    top: calc(var(--header-min-height) - 100px);
+    height: 100px;
     width: 100%;
-}
-
-.logo-section img {
-    opacity: 1;
-    height: 100%;
+    font-size: 3rem;
+    word-spacing: 10px;
 }
 
 .photo-credit {
