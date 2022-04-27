@@ -78,15 +78,15 @@ input:focus {
     box-shadow: 5px 5px 5px gray;
 }
 
-.left-column,
-.right-column {
+.form-left-column,
+.form-right-column {
     display: flex;
     flex-direction: column;
     max-height: 300px;
     max-width: 330px;
 }
 
-.right-column {
+.form-right-column {
     flex-wrap: wrap;
 }
 
