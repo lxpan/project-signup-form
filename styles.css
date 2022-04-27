@@ -25,6 +25,23 @@ body {
     max-width: 100%;
 }
 
+.logo-section {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background: black;
+    opacity: 0.5;
+    /* top: calc(var(--header-min-height) - 150px); */
+    top: 0;
+    height: 150px;
+    width: 100%;
+}
+
+.logo-section img {
+    opacity: 1;
+    height: 100%;
+}
+
 .photo-credit {
     position: absolute;
     top: 100%;
