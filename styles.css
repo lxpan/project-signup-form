@@ -2,6 +2,7 @@
     --color-valid: green;
     --color-invalid: red;
     --header-min-height: clamp(300px, 30vh, 400px);
+    --logo-section-height: 140px;
 }
 
 body {
@@ -31,8 +32,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: calc(var(--header-min-height) - 100px);
-    height: 100px;
+    top: calc(var(--header-min-height) - var(--logo-section-height));
+    height: var(--logo-section-height);
     width: 100%;
     
 }
