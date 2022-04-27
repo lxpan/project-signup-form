@@ -200,3 +200,7 @@ label span::after {
 .login-reminder a:hover {
     color: var(--submit-button-hover-colour);
 }
+
+.header a:link, a:visited {
+    text-decoration: solid;
+}
