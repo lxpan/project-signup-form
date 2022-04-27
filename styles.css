@@ -1,4 +1,3 @@
-
 :root {
     --color-valid: green;
     --color-invalid: red;
@@ -32,7 +31,8 @@ body {
     font-size: small;
 }
 
-.photo-credit a:link, a:visited {
+.photo-credit a:link,
+a:visited {
     color: white;
 }
 
@@ -78,9 +78,16 @@ input:focus {
     box-shadow: 5px 5px 5px gray;
 }
 
-.left-column, .right-column {
+.left-column,
+.right-column {
     display: flex;
     flex-direction: column;
+    max-height: 300px;
+    max-width: 330px;
+}
+
+.right-column {
+    flex-wrap: wrap;
 }
 
 .footer {
@@ -96,4 +103,19 @@ input:not(:focus):not(:placeholder-shown):invalid {
 
 input:not(:focus):not(:placeholder-shown):valid {
     border-color: var(--color-valid);
+}
+
+.requirements {
+    padding: 0 30px 0 50px;
+    color: #999;
+    max-height: 0;
+    transition: 0.28s;
+    overflow: hidden;
+    color: red;
+    font-style: italic;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid~.requirements {
+    max-height: 200px;
+    padding: 0 30px 20px 50px;
 }
