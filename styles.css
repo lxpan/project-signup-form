@@ -184,3 +184,14 @@ label span::after {
     content: '*';
     color: red;
 }
+
+.login-reminder {
+    margin-top: 20px;
+    font-size: large;
+}
+
+.login-reminder a:link, a:visited {
+    color: var(--submit-button-colour);
+    text-decoration: none;
+    font-weight: bold;
+}
