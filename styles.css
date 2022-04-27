@@ -42,12 +42,16 @@ a:visited {
     flex: 1;
 }
 
+/* Align all main sections */
+.header, .formContainer, .footer {
+    padding: 0 50px;
+}
+
 .header {
     background-color: rgb(251, 246, 246);
     height: 300px;
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 0 50px;
 }
 
 .formContainer {
