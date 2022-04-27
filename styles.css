@@ -5,6 +5,7 @@
     --header-background-colour: rgb(251, 246, 246);
     --logo-section-height: 140px;
     --form-box-shadow-colour: lightgrey;
+    --submit-button-colour: #343d52;
 }
 
 body {
@@ -138,6 +139,7 @@ input:focus {
 
 .footer {
     display: flex;
+    flex-direction: column;
     flex: 1;
     padding-top: 30px;
     background-color: var(--header-background-colour);
@@ -168,7 +170,7 @@ input:not(:focus):not(:placeholder-shown):invalid~.requirements {
 
 .submit-button button {
     padding: 15px 50px;
-    background-color: #343d52;
+    background-color: var(--submit-button-colour);
     border-radius: 10px;
     color: white;
     font-size: 1.1rem;
