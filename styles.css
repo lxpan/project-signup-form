@@ -233,3 +233,13 @@ div.passwordMatchContainer {
     font-size: small;
     transform: translate(0, -7.5px);
 }
+
+legend {
+    display: flex;
+    flex-direction: column;
+}
+
+.required-text {
+    font-size: 1rem;
+    font-weight: normal;
+}
