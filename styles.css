@@ -184,7 +184,7 @@ input:not(:focus):not(:placeholder-shown):invalid~.requirements {
     background-color: #5d6475;
 }
 
-label span::after {
+label .required-asterix::after {
     content: '*';
     color: red;
 }
