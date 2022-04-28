@@ -1,3 +1,8 @@
+/* 
+Project: Sign-up Page from The Odin Project
+Contains: functions to support form submission and validation.
+*/
+
 function checkPasswordMatch(e) {
     e.preventDefault();
     let password = document.getElementById("password");
