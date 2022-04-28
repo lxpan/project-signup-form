@@ -215,4 +215,5 @@ label span::after {
     flex: 1;
     align-items: flex-end;
     font-size: small;
+    transform: translate(0, -7.5px);
 }
