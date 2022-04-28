@@ -173,7 +173,7 @@ input:not(:focus):not(:placeholder-shown):invalid~.requirements {
 }
 
 input#password.error, input#passwordConfirm.error {
-    border-color: red;
+    border-color: var(--color-invalid);
 }
 
 .submit-button button {
