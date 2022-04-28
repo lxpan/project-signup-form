@@ -93,7 +93,7 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: clamp(330px, 30vh, 400px);
+    height: clamp(350px, 30vh, 400px);
     /* Make div able to show box-shadow */
     z-index: 10;
     box-shadow: 0 5px 10px var(--form-box-shadow-colour);
