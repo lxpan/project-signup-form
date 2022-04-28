@@ -209,3 +209,10 @@ label span::after {
     text-decoration: solid;
     text-shadow: 1px 1px 2px yellow, 0 0;
 }
+
+.copyright-text {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    font-size: small;
+}
