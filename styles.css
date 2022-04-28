@@ -200,7 +200,7 @@ div.passwordMatchContainer {
 .passwordMatchContainer .error::after {
     position: absolute;
     bottom: 3px;
-    content: '* Passwords do not match';
+    content: '‣ Passwords do not match';
     color: red;
     font-size: smaller;
 }
