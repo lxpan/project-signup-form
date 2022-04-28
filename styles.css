@@ -172,6 +172,10 @@ input:not(:focus):not(:placeholder-shown):invalid~.requirements {
     font-style: italic;
 }
 
+input#password.error, input#passwordConfirm.error {
+    border-color: red;
+}
+
 .submit-button button {
     padding: 15px 50px;
     background-color: var(--submit-button-colour);
