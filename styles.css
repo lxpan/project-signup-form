@@ -193,9 +193,16 @@ label .required-asterix::after {
     color: red;
 }
 
+div.passwordMatchContainer {
+    position: relative;
+}
+
 .passwordMatchContainer .error::after {
+    position: absolute;
+    bottom: 3px;
     content: '* Passwords do not match';
     color: red;
+    font-size: smaller;
 }
 
 .login-reminder {
