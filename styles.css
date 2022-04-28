@@ -220,7 +220,7 @@ div.passwordMatchContainer {
     color: var(--submit-button-hover-colour);
 }
 
-.header a:link, a:visited {
+.header a:link, .header a:visited {
     color: goldenrod;
     text-decoration: solid;
     text-shadow: 1px 1px 2px yellow, 0 0;
